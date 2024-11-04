@@ -1,7 +1,11 @@
+import Header from "../components/Header"
+import Footer from "../components/Footer"
+
 export function Test(){
     return(
-        <div className=" min-h-svh bg-black">
-            <h1 className="text-white font-semibold">This is on a different page</h1>
+        <div className="bg-gradient-to-r from-red-950 via-indigo-950 to-neutral-800 z-0 flex flex-col justify-center min-h-svh">
+            <Header/>
+            <Footer/>
         </div>
     )
 }
