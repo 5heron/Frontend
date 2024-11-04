@@ -5,7 +5,9 @@ import { Test } from "./Pages/Test";
 import { useState, useEffect } from "react";
 import { BookingPage } from "./Pages/BookingPage";
 import LoginPageSuccess from "./Pages/LoginPageSuccess";
-
+import { BookingPageSuccess } from "./Pages/BookingPageSuccess";
+import { HomePageSuccess} from "./Pages/HomePageSuccess";
+import { ShrekBooking } from "./Pages/ShrekBooking";
 export default function App() {
 
   useEffect(()=>{
@@ -21,6 +23,9 @@ export default function App() {
             <Route path="bookingpage" element={<BookingPage/>}/>
             <Route path="" element={<HomePage/>} />
             <Route path="/loggedin" element={<LoginPageSuccess/>} />
+            <Route path="/homepageloggedin" element={<HomePageSuccess/>} />
+            <Route path="/shrekbooking" element={<ShrekBooking/>} />
+            <Route path="/bookingpagesuccess" element={<BookingPageSuccess/>} />
           </Routes>
         </Router>
       </>
