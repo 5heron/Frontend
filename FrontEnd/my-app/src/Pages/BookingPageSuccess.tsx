@@ -12,19 +12,19 @@ export function BookingPageSuccess(){
         <div className="bg-gradient-to-r from-indigo-950 via-violet-950 to-purple-950 z-0 flex flex-col justify-center min-h-svh">
             <HeaderSuccess/>
                 <div className="flex flex-col gap-y-10 py-24">
-                    <Link to="/">
+                    <Link to="/theatre1">
                         <Card1/>
                     </Link>
-                    <Link to="/">
+                    <Link to="/theatre2">
                         <Card2/>
                     </Link>
-                    <Link to="/">
+                    <Link to="/theatre3">
                         <Card3/>
                     </Link>
-                    <Link to="/">
+                    <Link to="/theatre4">
                         <Card4/>
                     </Link>
-                    <Link to="/">
+                    <Link to="/theatre5">
                         <Card5/>
                     </Link>
                 </div>

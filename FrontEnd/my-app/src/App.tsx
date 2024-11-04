@@ -7,7 +7,12 @@ import { BookingPage } from "./Pages/BookingPage";
 import LoginPageSuccess from "./Pages/LoginPageSuccess";
 import { BookingPageSuccess } from "./Pages/BookingPageSuccess";
 import { HomePageSuccess} from "./Pages/HomePageSuccess";
-import { ShrekBooking } from "./Pages/ShrekBooking";
+import { Theatre1 } from "./Pages/Theatre1";
+import { Theatre2 } from "./Pages/Theatre2";
+import { Theatre3 } from "./Pages/Theatre3";
+import { Theatre4 } from "./Pages/Theatre4";
+import { Theatre5 } from "./Pages/Theatre5";
+
 export default function App() {
 
   useEffect(()=>{
@@ -24,7 +29,11 @@ export default function App() {
             <Route path="" element={<HomePage/>} />
             <Route path="/loggedin" element={<LoginPageSuccess/>} />
             <Route path="/homepageloggedin" element={<HomePageSuccess/>} />
-            <Route path="/shrekbooking" element={<ShrekBooking/>} />
+            <Route path="/Theatre1" element={<Theatre1/>} />
+            <Route path="/Theatre2" element={<Theatre2/>} />
+            <Route path="/Theatre3" element={<Theatre3/>} />
+            <Route path="/Theatre4" element={<Theatre4/>} />
+            <Route path="/Theatre5" element={<Theatre5/>} />
             <Route path="/bookingpagesuccess" element={<BookingPageSuccess/>} />
           </Routes>
         </Router>
