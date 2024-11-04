@@ -4,6 +4,7 @@ import { LoginPage } from "./Pages/LoginPage";
 import { Test } from "./Pages/Test";
 import { useState, useEffect } from "react";
 import { BookingPage } from "./Pages/BookingPage";
+import LoginPageSuccess from "./Pages/LoginPageSuccess";
 
 export default function App() {
 
@@ -19,6 +20,7 @@ export default function App() {
             <Route path="login" element={<LoginPage/>}/>
             <Route path="bookingpage" element={<BookingPage/>}/>
             <Route path="" element={<HomePage/>} />
+            <Route path="/loggedin" element={<LoginPageSuccess/>} />
           </Routes>
         </Router>
       </>

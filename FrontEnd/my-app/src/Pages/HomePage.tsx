@@ -18,7 +18,7 @@ export function HomePage(){
       }
     
       return (
-        <div className="bg-gradient-to-r from-red-950 via-indigo-950 to-neutral-800 z-0 flex flex-col justify-center min-h-svh">
+        <div className="scrollbar-hide bg-gradient-to-r from-red-950 via-indigo-950 to-neutral-800 z-0 flex flex-col justify-center min-h-svh">
           <Header/>
           <div className="relative flex item-center ">
             <MdChevronLeft className="self-center opacity-50 hover:opacity-100" onClick={SlideLeft} size={40} color="pink"/>
