@@ -1,6 +1,7 @@
 import HeaderSuccess from "../components/HeaderSuccess";
 import Footer from "../components/Footer";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const totalSeats = 30;
 
@@ -35,9 +36,11 @@ export function Theatre1() {
                         </div>
                     ))}
                 </div>
-                <p className="mt-4 text-light text-rose-400">
-                    Click on a seat to book/unbook it.
-                </p>
+                <Link to="/BookingConfirmed">
+                    <button className="mt-4 text-light text-rose-400">
+                        Confirm booking
+                    </button>
+                </Link>
             </div>
             <Footer />
         </div>
