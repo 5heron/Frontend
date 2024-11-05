@@ -19,19 +19,19 @@ export default function()
                     Select a show
             </div>
             <div className="flex flex-col gap-y-10 py-10">
-                <Link to="/shrekbooking">
+                <Link to="/theatre1">
                     <Card1/>
                 </Link>
-                <Link to="/">
+                <Link to="/theatre2">
                     <Card2/>
                 </Link>
-                <Link to="/">
+                <Link to="/theatre3">
                     <Card3/>
                 </Link>
-                <Link to="/">
+                <Link to="/theatre4">
                     <Card4/>
                 </Link>
-                <Link to="/">
+                <Link to="/theatre5">
                     <Card5/>
                 </Link>
             </div>
