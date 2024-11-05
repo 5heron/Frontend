@@ -20,7 +20,7 @@ export default function()
             </div>
             <div className="flex flex-col gap-y-10 py-10">
                 <Link to="/theatre1">
-                    <Card1/>
+                    <Card2/>
                 </Link>
                 <Link to="/theatre2">
                     <Card2/>
