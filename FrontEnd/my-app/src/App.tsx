@@ -35,6 +35,7 @@ export default function App() {
             <Route path="/Theatre4" element={<Theatre4/>} />
             <Route path="/Theatre5" element={<Theatre5/>} />
             <Route path="/bookingpagesuccess" element={<BookingPageSuccess/>} />
+            <Route path="/test" element={<Test/>} />
           </Routes>
         </Router>
       </>
