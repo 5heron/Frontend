@@ -13,7 +13,7 @@ export function BookingPageSuccess(){
             <HeaderSuccess/>
                 <div className="flex flex-col gap-y-10 py-24">
                     <Link to="/theatre1">
-                        <Card2/>
+                        <Card1/>
                     </Link>
                     <Link to="/theatre2">
                         <Card2/>
@@ -23,9 +23,6 @@ export function BookingPageSuccess(){
                     </Link>
                     <Link to="/theatre4">
                         <Card4/>
-                    </Link>
-                    <Link to="/theatre5">
-                        <Card5/>
                     </Link>
                 </div>
             <Footer/>

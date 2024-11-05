@@ -32,12 +32,19 @@ export function BookingPage(){
         <div className="bg-gradient-to-r from-red-950 via-indigo-950 to-neutral-800 z-0 flex flex-col justify-center min-h-svh">
             <Header/>
             <div className="flex flex-col gap-y-10 py-24">
-                {shows.map(show => (
-                    <Link key={show.title} to="/login">
-                        <Card1 show={show}/>
+                    <Link to="/theatre1">
+                        <Card1/>
                     </Link>
-                ))}
-            </div>
+                    <Link to="/theatre2">
+                        <Card2/>
+                    </Link>
+                    <Link to="/theatre3">
+                        <Card3/>
+                    </Link>
+                    <Link to="/theatre4">
+                        <Card4/>
+                    </Link>
+                </div>
             <Footer/>
         </div>
     )

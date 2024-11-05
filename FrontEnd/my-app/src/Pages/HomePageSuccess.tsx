@@ -24,7 +24,7 @@ export function HomePageSuccess(){
             <MdChevronLeft className="self-center opacity-50 hover:opacity-100" onClick={SlideLeft} size={40} color="pink"/>
             <div id="slider" className=" mt-20 scrollbar-hide w-full h-full overflow-x-scroll overflow-y-hidden whitespace-nowrap scroll-smooth">
               {Clist.map((item)=> (
-                <img className="w-[1080px] inline-block p-4 hover:scale-105 ease-in-out duration-500" 
+                <img className="w-[800px] h-[500px] inline-block p-4 hover:scale-105 ease-in-out duration-500" 
                 src={import.meta.env.BASE_URL + item.image} 
                 alt="cover images" />
               ))}
