@@ -1,2 +1,2 @@
 # Frontend
-Conatins the Frontend for the Theatre app
+Contains the Frontend for the Theatre app
